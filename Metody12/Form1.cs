@@ -16,5 +16,15 @@ namespace Metody12
         {
             InitializeComponent();
         }
+
+        private bool ObsahujeSlovo(string text,out string nejdelsiSlovo, out string nejkratsiSlovo)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
