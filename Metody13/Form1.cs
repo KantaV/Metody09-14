@@ -40,8 +40,7 @@ namespace Metody13
         private void button1_Click(object sender, EventArgs e)
         {
             int pocMal = 0, pocVel = 0, pocNeAlf = 0;
-            bool jeAlf = JeAlfanum(textBox1.Text, out pocMal, out pocVel, out pocNeAlf);
-            if (jeAlf) MessageBox.Show("Text je alfanumerický\nPočet malých písmen: " + pocMal + "\nPočet velkých písmen: " + pocVel);
+            if (JeAlfanum(textBox1.Text, out pocMal, out pocVel, out pocNeAlf)) MessageBox.Show("Text je alfanumerický\nPočet malých písmen: " + pocMal + "\nPočet velkých písmen: " + pocVel);
             else MessageBox.Show("Text není alfanumerický\nPočet malých písmen: " + pocMal + "\nPočet velkých písmen: " + pocVel + "\nPočet nealfanumerických znaků: " + pocNeAlf); ;
         }
     }
